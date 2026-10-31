@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    ".dockerignore": "ignore",
+    "*.dockerignore": "ignore"
+  }
+}

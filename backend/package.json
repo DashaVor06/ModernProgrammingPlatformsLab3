@@ -1,0 +1,37 @@
+{
+  "name": "intercity-bus-aggregator-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for Intercity Bus Route Aggregator",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "node scripts/check.mjs",
+    "mail:test": "node scripts/send-test-mail.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^10.3.1",
+    "pg": "^8.13.3",
+    "resend": "^6.37.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  },
+  "keywords": [
+    "bus-aggregator",
+    "rest-api",
+    "express",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC"
+}
